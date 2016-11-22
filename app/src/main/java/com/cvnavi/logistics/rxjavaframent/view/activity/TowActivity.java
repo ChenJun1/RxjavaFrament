@@ -111,7 +111,7 @@ public class TowActivity extends BaseActivity implements SwipeRefreshLayout.OnRe
     @Override
     public void onRefresh() {
         for (int i = 0; i < 10; i++) {
-            list.add(i+"是谁唱的歌大大大啊");
+            list.add(i+"是谁唱的歌大大大啊是大神大所大");
             mTowAdapter.notifyDataSetChanged();
         }
         mRfLayout.setRefreshing(false);
